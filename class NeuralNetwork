@@ -1,0 +1,17 @@
+
+public class NeuralNetwork extends BaseModel {
+    public int[] layers;
+    public  String activationFunction; 
+    public NeuralNetwork(int[] layers, String activationFunction ){
+         this.layers=layers;
+         this.activationFunction=activationFunction;   
+    }
+    public void train(){
+        System.out.println("message1");
+    }
+    public double  predict(){
+        System.out.println("message2");
+    }
+    
+    
+}
