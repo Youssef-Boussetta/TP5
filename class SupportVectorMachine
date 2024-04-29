@@ -1,0 +1,14 @@
+public class SupportVectorMachine extends BaseModel {
+    public int iterations ;
+    public  double learningRate;
+    public void train(){
+        System.out.println("message5");
+    }
+    public double  predict(){
+        System.out.println("message6");
+    }
+    public SupportVectorMachine(int iterations ,double learningRate){
+         this.iterations = iterations;
+         this.learningRate = learningRate;   
+    }
+}
