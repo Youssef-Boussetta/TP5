@@ -1,0 +1,6 @@
+abstract public class Dataset {
+     protected boolean isTrain;
+     protected String path;
+     abstract public void charger();
+     abstract public void pretraiter();
+}
