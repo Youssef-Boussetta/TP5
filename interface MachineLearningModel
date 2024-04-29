@@ -1,0 +1,4 @@
+public interface MachineLearningModel {
+    public  void train(Dataset dataset);
+    public  double predict(Dataset dataset);
+}
