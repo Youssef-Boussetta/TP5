@@ -1,0 +1,15 @@
+
+public class ClassificationDataset extends Dataset {
+    public  String[] labels;
+    public  int numClasses;
+    public ClassificationDataset(String[] labels ,int numClasses){
+         this.labels=labels;
+         this.numClasses=numClasses;   
+    }
+    public void charger (){
+       System.out.println("chargerClassificationDataset"); 
+    }
+    public void pretraiter(){
+        System.out.println("pretaiterClassificationDataset");
+    }
+}
