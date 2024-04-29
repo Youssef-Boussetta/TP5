@@ -1,0 +1,9 @@
+abstract public class BaseModel implements MachineLearningModel {
+     protected String name;
+     public int version ;
+     public String description;
+     public  String device;
+     public void displayDetails(){
+         
+     }
+}
