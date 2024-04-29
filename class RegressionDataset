@@ -1,0 +1,15 @@
+
+public class RegressionDataset extends Dataset {
+    public int numFeatures ;
+    public  double[] targets;
+    public RegressionDataset(int numFeatures ,double[] targets){
+         this.numFeatures=numFeatures;
+         this.targets=targets;   
+    }
+    public void charger (){
+        System.out.println("chargerRegressionDataset");
+    }
+    public void pretraiter(){
+        System.out.println("pretaiterRegressionDataset");
+    }
+}
