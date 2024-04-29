@@ -1,0 +1,15 @@
+
+public class RandomForest extends BaseModel {
+    public int numTrees;
+    public  int maxDepth;
+    public RandomForest(int numTrees  ,int maxDepth){
+         this.numTrees=numTrees;
+         this.maxDepth=maxDepth;   
+    }
+    public void train(){
+        System.out.println("message3");
+    }
+    public void  predict(){
+        System.out.println("message4");}
+    
+}
